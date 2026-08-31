@@ -51,6 +51,4 @@ coverage/
 .turbo/
 .eslintcache
 
-# Task PDF and Presentation Script Exclusions
-Take Home Task Bulk URL Health Checker.pdf
-LOOM_SCRIPT.md
+
