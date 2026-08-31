@@ -1,0 +1,28 @@
+{
+  "name": "@healthchecker/worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/worker.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/worker.ts",
+    "start": "node dist/worker.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@healthchecker/shared": "*",
+    "bullmq": "^5.41.6",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "ioredis": "^5.5.0",
+    "pg": "^8.13.3",
+    "undici": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@types/pg": "^8.11.11",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
